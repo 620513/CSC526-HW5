@@ -7,7 +7,7 @@
 public final class Arguments {
 	// private constructor ensures that the class cannot be instantiated
 	private Arguments() {}
-	
+
 	/**
 	 * Throws an illegal argument exception if the given object is null.
 	 * @param o object to be checked for nullness
@@ -18,7 +18,7 @@ public final class Arguments {
 			throw new IllegalArgumentException("cannot pass null");
 		}
 	}
-	
+
 	/**
 	 * Throws an illegal argument exception if any object in the given array is null.
 	 * @param a array whose elements are to be checked for nullness (var-args)
@@ -31,7 +31,7 @@ public final class Arguments {
 			}
 		}
 	}
-	
+
 	/**
 	 * Throws an illegal argument exception if the given string is null or the empty string.
 	 * @param s string to be checked for nullness/emptiness
@@ -42,7 +42,7 @@ public final class Arguments {
 			throw new IllegalArgumentException("cannot pass null or empty string");
 		}
 	}
-	
+
 	/**
 	 * Throws an illegal argument exception if the given integer is not
 	 * greater than or equal to the given minimum value.
@@ -54,7 +54,7 @@ public final class Arguments {
 			throw new IllegalArgumentException("must be at least " + min + ": " + n);
 		}
 	}
-	
+
 	/**
 	 * Throws an illegal argument exception if the given integer is not
 	 * less than or equal to the given maximum value.
@@ -66,7 +66,7 @@ public final class Arguments {
 			throw new IllegalArgumentException("must be at most " + max + ": " + n);
 		}
 	}
-	
+
 	/**
 	 * Throws an illegal argument exception if the given integer is not
 	 * between the given minimum and maximum values inclusive.
@@ -78,7 +78,7 @@ public final class Arguments {
 			throw new IllegalArgumentException("must be between " + min + " and " + max + ": " + n);
 		}
 	}
-	
+
 	/**
 	 * Throws an illegal argument exception if the given integer is negative.
 	 * @param n integer to be checked for its range
@@ -87,7 +87,7 @@ public final class Arguments {
 	public static void ensureNonNegative(int n) {
 		ensureAtLeast(n, 0);
 	}
-	
+
 	/**
 	 * Throws an illegal argument exception if the given real number is negative.
 	 * @param d number to be checked for its range

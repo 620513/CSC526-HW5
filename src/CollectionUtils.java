@@ -42,7 +42,7 @@ public final class CollectionUtils {
 		if (values == null) {
 			return set;
 		}
-		
+
 		for (K value : values) {
 			set.add(value);
 		}
@@ -60,7 +60,7 @@ public final class CollectionUtils {
 		}
 		return set;
 	}
-	
+
 	/**
 	 * Combines the elements of the given array or collection into a long
 	 * String, separating each by a comma and space.
@@ -70,7 +70,7 @@ public final class CollectionUtils {
 	public static String join(Iterable<?> collection) {
 		return join(collection, ", ");
 	}
-	
+
 	/**
 	 * Combines the elements of the given array or collection into a long
 	 * String, separating each by the given delimiter.
@@ -89,7 +89,7 @@ public final class CollectionUtils {
 		}
 		return sb.toString();
 	}
-	
+
 	/**
 	 * Combines the elements of the given map into a string separated
 	 * by an equals sign between keys and their values, and commas between each entry.
@@ -99,7 +99,7 @@ public final class CollectionUtils {
 	public static String join(Map<?, ?> map) {
 		return join(map, "=", ", ");
 	}
-	
+
 	/**
 	 * Combines the elements of the given collection into a string separated
 	 * by the given kv separator between keys and their values, and
@@ -138,7 +138,7 @@ public final class CollectionUtils {
 		}
 		return result;
 	}
-	
+
 	/**
 	 * Returns the minimum value of all the integers passed (must pass at least one).
 	 * @param int1 first integer passed
@@ -154,7 +154,7 @@ public final class CollectionUtils {
 		}
 		return result;
 	}
-	
+
 	/**
 	 * Reverses the given map, such that its keys become its values and vice
 	 * versa.  Note that since keys must be unique and values can recur,
