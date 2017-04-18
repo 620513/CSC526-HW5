@@ -1,4 +1,4 @@
-// Homework 4 (Election)
+// Homework 5 (Election)
 // Instructor-provided code.
 // You SHOULD modify this file to make it interface with your own classes.
 

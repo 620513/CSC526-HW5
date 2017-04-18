@@ -1,4 +1,4 @@
-// Homework 4 (Election)
+// Homework 5 (Election)
 // Instructor-provided code; do not modify.
 
 import java.io.ByteArrayOutputStream;

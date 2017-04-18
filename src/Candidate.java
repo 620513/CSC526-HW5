@@ -1,5 +1,5 @@
 /**
- * Created by UN on 11-04-2017.
+ * Created by ThelmaAndrews on 11-04-2017.
  */
 public class Candidate {
     int candidateid;
